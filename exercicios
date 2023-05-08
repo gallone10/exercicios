@@ -1,0 +1,4 @@
+function mudançaBackground(){
+    document.body.bgColor='white';
+}
+
