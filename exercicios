@@ -1,4 +1,24 @@
 function mudançaBackground(){
-    document.body.bgColor='white';
+    document.body.bgColor="white";
 }
 
+function  adicionarItem(){
+  
+    const text = document.getElementById("newItem").value;
+ 
+    const newItem = document.createElement("list");
+    newItem.textContent = text;
+   
+    document.getElementById('lista').appendChild(newItem);
+}
+
+function mudarImagem() {
+    if(document.getElementById("imagem").src= ../img/social-1.png"){
+        document.getElementById("imagem").alt= "twitter";
+        document.getElementById("imagem").alt== "whatsapp"
+        
+      
+    }else{
+        document.getElementById('imagem').src= '../img/social-2.png';
+        document.getElementById('imagem').alt= 'facebook';
+    }
