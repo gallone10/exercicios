@@ -22,3 +22,11 @@ function mudarImagem() {
         document.getElementById('imagem').src= '../img/social-2.png';
         document.getElementById('imagem').alt= 'facebook';
     }
+
+    function mensagem() {
+        document.getElementById("exibeMensagem").innerText="indo pra fiap";
+    }
+    
+    function tirarMensagem() {
+        document.getElementById("apagar").hidden= false;
+    
